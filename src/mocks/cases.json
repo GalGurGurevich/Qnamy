@@ -1,0 +1,98 @@
+{
+  "f85fbddc-7c54-4370-ad8c-c600e8062282": {
+    "caseTypeId": "4f45f5c7-472c-4d48-bc46-b6b1736fda89",
+    "caseType": "Personal banking",
+    "ticket": "B134",
+    "fields": [
+      { "fieldId": "ca6f390a-6996-4c72-93e9-7cbac628ce00", "value": false },
+      { "fieldId": "cfb39bbb-4bb7-4efb-90c5-e9d1a14b387b", "value": "Pain-Stomp" },
+      { "fieldId": "9f027ebb-ac25-4e94-b328-3f055ca5b5cf", "value": null },
+      { "fieldId": "af427e4c-b830-45b5-9fd3-33302151a24f", "value": 25 },
+      { "fieldId": "6d5a80be-4a56-406c-876d-84c9c8384787", "value": "Regular" }
+    ]
+  },
+  "6c64ce37-1ee7-4f5d-94b0-1ac22745a1d8": {
+    "caseTypeId": "4acec578-9b5c-4dbd-b70c-838686039e72",
+    "caseType": "Deposit",
+    "ticket": "D745",
+    "fields": [
+      { "fieldId": "7575ab9a-126d-4c2c-b981-409c69c1e5ef", "value": "Angry Master" },
+      { "fieldId": "531e4ede-084e-48b6-a001-6c7cb7a1c93c", "value": "45267123/79" },
+      { "fieldId": "9bd4f760-a59f-4c9d-93f0-d1abc0b03a04", "value": 63.41 }
+    ]
+  },
+  "B722624d-01bf-4a4e-a079-3b51470d7006": {
+    "caseTypeId": "4f45f5c7-472c-4d48-bc46-b6b1736fda89",
+    "caseType": "Personal banking",
+    "ticket": "B135",
+    "fields": [
+      { "fieldId": "ca6f390a-6996-4c72-93e9-7cbac628ce00", "value": false },
+      { "fieldId": "cfb39bbb-4bb7-4efb-90c5-e9d1a14b387b", "value": "Atomic" },
+      { "fieldId": "9f027ebb-ac25-4e94-b328-3f055ca5b5cf", "value": "Hulk" },
+      { "fieldId": "af427e4c-b830-45b5-9fd3-33302151a24f", "value": 34 },
+      { "fieldId": "6d5a80be-4a56-406c-876d-84c9c8384787", "value": "VIP" }
+    ]
+  },
+  "7280a6bc-a089-4dcd-b277-666671041789": {
+    "caseTypeId": "4acec578-9b5c-4dbd-b70c-838686039e72",
+    "caseType": "Activity report",
+    "ticket": "R651",
+    "fields": [
+      { "fieldId": "977a1fde-572d-403b-91b5-56af3c0bf63d", "value": "bigboss@wrestlerfinances.com" },
+      { "fieldId": "9c4df1e8-c268-4514-81b5-d975d6c022f0", "value": "Urgent" }
+    ]
+  },
+  "6d2e6550-cd74-4e73-b9fd-0e49361a7d85": {
+    "caseTypeId": "4acec578-9b5c-4dbd-b70c-838686039e72",
+    "caseType": "Deposit",
+    "ticket": "D746",
+    "fields": [
+      { "fieldId": "7575ab9a-126d-4c2c-b981-409c69c1e5ef", "value": "Angry Master" },
+      { "fieldId": "531e4ede-084e-48b6-a001-6c7cb7a1c93c", "value": "45267123/79" },
+      { "fieldId": "9bd4f760-a59f-4c9d-93f0-d1abc0b03a04", "value": 286.67 }
+    ]
+  },
+  "f3efe4a2-99c0-4427-8020-d0bad361cd33": {
+    "caseTypeId": "4acec578-9b5c-4dbd-b70c-838686039e72",
+    "caseType": "Activity report",
+    "ticket": "R652",
+    "fields": [
+      { "fieldId": "977a1fde-572d-403b-91b5-56af3c0bf63d", "value": "bigboss@wrestlerfinances.com" },
+      { "fieldId": "9c4df1e8-c268-4514-81b5-d975d6c022f0", "value": "Urgent" }
+    ]
+  },
+  "53dc873b-914a-43a7-8c4b-7550e1e4195f": {
+    "caseTypeId": "4acec578-9b5c-4dbd-b70c-838686039e72",
+    "caseType": "Deposit",
+    "ticket": "D747",
+    "fields": [
+      { "fieldId": "7575ab9a-126d-4c2c-b981-409c69c1e5ef", "value": "Powerman" },
+      { "fieldId": "531e4ede-084e-48b6-a001-6c7cb7a1c93c", "value": "72145689/45" },
+      { "fieldId": "9bd4f760-a59f-4c9d-93f0-d1abc0b03a04", "value": 137.54 }
+    ]
+  },
+  "2c36b09a-ccfc-4718-95f3-c9960313ed5b": {
+    "caseTypeId": "4f45f5c7-472c-4d48-bc46-b6b1736fda89",
+    "caseType": "Personal banking",
+    "ticket": "B136",
+    "fields": [
+      { "fieldId": "ca6f390a-6996-4c72-93e9-7cbac628ce00", "value": true },
+      { "fieldId": "cfb39bbb-4bb7-4efb-90c5-e9d1a14b387b", "value": "Angry" },
+      { "fieldId": "9f027ebb-ac25-4e94-b328-3f055ca5b5cf", "value": "Master" },
+      { "fieldId": "af427e4c-b830-45b5-9fd3-33302151a24f", "value": 67 },
+      { "fieldId": "6d5a80be-4a56-406c-876d-84c9c8384787", "value": "VIP" }
+    ]
+  },
+  "fc56810f-63a5-413d-b678-5bcd861a56a7": {
+    "caseTypeId": "4f45f5c7-472c-4d48-bc46-b6b1736fda89",
+    "caseType": "Personal banking",
+    "ticket": "B137",
+    "fields": [
+      { "fieldId": "ca6f390a-6996-4c72-93e9-7cbac628ce00", "value": false },
+      { "fieldId": "cfb39bbb-4bb7-4efb-90c5-e9d1a14b387b", "value": "Powerman" },
+      { "fieldId": "9f027ebb-ac25-4e94-b328-3f055ca5b5cf", "value": null },
+      { "fieldId": "af427e4c-b830-45b5-9fd3-33302151a24f", "value": 38 },
+      { "fieldId": "6d5a80be-4a56-406c-876d-84c9c8384787", "value": "Regular" }
+    ]
+  }
+}

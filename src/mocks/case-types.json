@@ -1,0 +1,27 @@
+{
+  "4f45f5c7-472c-4d48-bc46-b6b1736fda89": {
+    "name": "Personal banking",
+    "fields": [
+      "ca6f390a-6996-4c72-93e9-7cbac628ce00",
+      "cfb39bbb-4bb7-4efb-90c5-e9d1a14b387b",
+      "9f027ebb-ac25-4e94-b328-3f055ca5b5cf",
+      "af427e4c-b830-45b5-9fd3-33302151a24f",
+      "6d5a80be-4a56-406c-876d-84c9c8384787"
+    ]
+  },
+  "4acec578-9b5c-4dbd-b70c-838686039e72": {
+    "name": "Deposit",
+    "fields": [
+      "7575ab9a-126d-4c2c-b981-409c69c1e5ef",
+      "531e4ede-084e-48b6-a001-6c7cb7a1c93c",
+      "9bd4f760-a59f-4c9d-93f0-d1abc0b03a04"
+    ]
+  },
+  "960cdf97-93b6-44a5-ace6-e7630b279b8c": {
+    "name": "Activity report",
+    "fields": [
+      "977a1fde-572d-403b-91b5-56af3c0bf63d",
+      "9c4df1e8-c268-4514-81b5-d975d6c022f0"
+    ]
+  }
+}

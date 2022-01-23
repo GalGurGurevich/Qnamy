@@ -1,0 +1,99 @@
+{
+  "ca6f390a-6996-4c72-93e9-7cbac628ce00": {
+    "type": "Boolean",
+    "label": "Is returning visit",
+    "settings": {}
+  },
+  "cfb39bbb-4bb7-4efb-90c5-e9d1a14b387b": {
+    "type": "Text",
+    "label": "First name",
+    "settings": {
+      "required": true,
+      "minLength": 3,
+      "maxLength": 25,
+      "pattern": null
+    }
+  },
+  "9f027ebb-ac25-4e94-b328-3f055ca5b5cf": {
+    "type": "Text",
+    "label": "Last name",
+    "settings": {
+      "required": false,
+      "minLength": 3,
+      "maxLength": 50,
+      "pattern": null
+    }
+  },
+  "7575ab9a-126d-4c2c-b981-409c69c1e5ef": {
+    "type": "Text",
+    "label": "Recepient name",
+    "settings": {
+      "required": true,
+      "minLength": 5,
+      "maxLength": 100,
+      "pattern": null
+    }
+  },
+  "531e4ede-084e-48b6-a001-6c7cb7a1c93c": {
+    "type": "Text",
+    "label": "Account number",
+    "settings": {
+      "required": true,
+      "pattern": "^\\d{8}/\\d{2}$"
+    }
+  },
+  "977a1fde-572d-403b-91b5-56af3c0bf63d": {
+    "type": "Text",
+    "label": "Email",
+    "settings": {
+      "required": false,
+      "minLength": 7,
+      "maxLength": 50,
+      "pattern": "^\\w+@\\w+.\\w+$"
+    }
+  },
+  "af427e4c-b830-45b5-9fd3-33302151a24f": {
+    "type": "Numeric",
+    "label": "Age",
+    "settings": {
+      "required": true,
+      "integer": true,
+      "min": 18,
+      "max": 150
+    }
+  },
+  "9bd4f760-a59f-4c9d-93f0-d1abc0b03a04": {
+    "type": "Numeric",
+    "label": "Deposit amount",
+    "settings": {
+      "required": false,
+      "integer": false
+    }
+  },
+  "9c4df1e8-c268-4514-81b5-d975d6c022f0": {
+    "type": "List",
+    "label": "Priority",
+    "settings": {
+      "required": false,
+      "values": [
+        "Optional",
+        "Casual",
+        "Normal",
+        "Urgent",
+        "Emergency"
+      ]
+    }
+  },
+  "6d5a80be-4a56-406c-876d-84c9c8384787": {
+    "type": "List",
+    "label": "Customer level",
+    "settings": {
+      "required": true,
+      "values": [
+        "Regular",
+        "Premium",
+        "VIP"
+      ]
+    }
+  }
+}
