@@ -1,21 +1,20 @@
 import React, { useEffect, useState } from 'react';
+import DynamicField from './DynamicField'
 import './EditorScreen.css'
 
 export default function EditorScreen({selectedCase}) {
 
-    console.log(selectedCase)
+    console.log("EditorScreen: " ,selectedCase)
 
     const submitEdit = (e) => {
         e.preventDefault();
         console.log("here we go");
     }
 
-    function renderField() {
-        const inputs = selectedCase?.fields?.map((f => {
-            console.log(f)
-            return (<input className='field_input' value={(f.value || "")}/>)
+    const renderField = () => {
+        return selectedCase?.fields?.map((f => {
+            return (<DynamicField field={f}/>)
         }))
-        return inputs
     }
 
     return (

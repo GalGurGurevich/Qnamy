@@ -14,7 +14,7 @@ export default function MainScreen() {
 
     console.log(cases);
     const displayCases = () => {
-        return cases?.map((elem) => <div key={elem.id} className={'case_line' + (selectedCase?.id === elem.id ? ' _selected' : '')} onClick={() => setSelectedCase(elem)}>{elem.caseType} : {elem.ticket}</div>
+        return cases?.map((elem) => <li key={elem.id} className={'case_line' + (selectedCase?.id === elem.id ? ' _selected' : '')} onClick={() => setSelectedCase(elem)}>{elem.caseType} : {elem.ticket}</li>
     )};
 
     return (
