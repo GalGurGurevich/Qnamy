@@ -1,0 +1,18 @@
+.main_screen_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.side {
+    border: solid 1px black;
+    width: 100%;
+    padding: 2.5px;
+}
+
+.case_line {
+    cursor: pointer;
+}
+
+.case_line._selected {
+    color: blue;
+}

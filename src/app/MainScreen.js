@@ -1,21 +1,30 @@
 import React, { useEffect, useState } from 'react';
+import EditorScreen from './EditorScreen'
+import './MainScreen.css'
 
 export default function MainScreen() {
 
     const [cases, setCases] = useState([]);
+    const [selectedCase, setSelectedCase] = useState({});
 
     useEffect(() => {
         fetch("/cases").then(response => response.json())
         .then(data => setCases(data));
     } ,[])
 
+    console.log(cases);
+    const displayCases = () => {
+        return cases?.map((elem) => <div key={elem.id} className={'case_line' + (selectedCase?.id === elem.id ? ' _selected' : '')} onClick={() => setSelectedCase(elem)}>{elem.caseType} : {elem.ticket}</div>
+    )};
+
     return (
         <div className="main_screen_container">
-            <aside>
-                <div>Side A</div>
+            <aside className='side'>
+                <div>{displayCases()}</div>
             </aside>
-            <aside>
-                <div>Side B</div>
+            <aside className='side'>
+                {selectedCase && (<div>Selected: {selectedCase.caseType} {selectedCase.ticket}</div>)}
+                <EditorScreen selectedCase={selectedCase} />
             </aside>
         </div>
     )
