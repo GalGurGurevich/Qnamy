@@ -18,9 +18,11 @@ export default function EditorScreen({selectedCase}) {
     }
 
     return (
-        <form onSubmit={(e) => submitEdit(e)}>
-            <div className='input_container'>{renderField()}</div>
-            <button>SAVE</button>
-        </form>
+        <aside className='side'>
+            <form onSubmit={(e) => submitEdit(e)}>
+                <div className='input_container'>{renderField()}</div>
+                <button>SAVE</button>
+            </form>
+        </aside>
     )
 }

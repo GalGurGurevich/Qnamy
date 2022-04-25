@@ -2,15 +2,7 @@ import React, { useEffect, useState } from 'react';
 import EditorScreen from './EditorScreen'
 import './MainScreen.css'
 
-export default function MainScreen() {
-
-    const [cases, setCases] = useState([]);
-    const [selectedCase, setSelectedCase] = useState({});
-
-    useEffect(() => {
-        fetch("/cases").then(response => response.json())
-        .then(data => setCases(data));
-    } ,[])
+export default function MainScreen({cases, setSelectedCase, selectedCase}) {
 
     console.log(cases);
     const displayCases = () => {
@@ -18,14 +10,8 @@ export default function MainScreen() {
     )};
 
     return (
-        <div className="main_screen_container">
             <aside className='side'>
                 <div>{displayCases()}</div>
             </aside>
-            <aside className='side'>
-                {selectedCase && (<div>Selected: {selectedCase.caseType} {selectedCase.ticket}</div>)}
-                <EditorScreen selectedCase={selectedCase} />
-            </aside>
-        </div>
     )
 }
